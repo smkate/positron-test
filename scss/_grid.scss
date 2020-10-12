@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  max-width: 1284px;
+  margin: 0 auto;
+
+  @media (max-width: 1024px) {
+    max-width: 904px;
+  }
+  @media (max-width: 768px) {
+    max-width: 714px;
+  }
+  @media (max-width: 425px) {
+    max-width: 345px;
+  }
+  @media (max-width: 320px) {
+    max-width: 285px;
+  }
+}

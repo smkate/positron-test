@@ -1,0 +1,22 @@
+.partners {
+  display: flex;
+  overflow-x: hidden;
+}
+.partners__title {
+  text-align: center;
+  width: 100%;
+  color: $darkyGrey;
+  font-size: 44px;
+  line-height: 52px;
+}
+.partners__box {
+  width: 110%;
+  display: flex;
+}
+.partners-icon {
+  width: 200px;
+  height: 100px;
+}
+.partners__box-item {
+  padding: 42px 45px;
+}

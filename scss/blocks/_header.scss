@@ -1,0 +1,71 @@
+.header {
+  background-color: $lightBlue;
+  padding: 24px 0;
+}
+.header__box {
+  align-items: center;
+  justify-content: space-between;
+}
+.header__navbar {
+  font-size: 16px;
+  line-height: 20px;
+}
+.header__logo {
+  text-align: left;
+}
+.header__logo-icon {
+  height: 20px;
+  width: 182px;
+}
+.navbar__list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 16px;
+  line-height: 20px;
+}
+.navbar__item {
+  display: block;
+  padding-right: 40px;
+}
+.navbar__link {
+  text-decoration: none;
+  color: $black;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    color: $blue;
+  }
+}
+.header__contact {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  border-left: 1px solid $greyLine;
+  text-align: right;
+}
+.contact-city__link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: $blue;
+  font-size: 12px;
+  line-height: 14px;
+}
+.contact-city__link-icon {
+  width: 7px;
+  height: 4px;
+  padding-left: 4px;
+}
+.contact-phone__link {
+  text-decoration: none;
+  color: $black;
+  font-size: 20px;
+  line-height: 24px;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    color: $blue;
+  }
+}

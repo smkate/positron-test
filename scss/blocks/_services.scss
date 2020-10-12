@@ -1,0 +1,123 @@
+.services {
+  background-color: $lightBlue;
+  padding-top: 55px;
+}
+.services-box {
+  position: relative;
+  background-color: $white;
+  padding-bottom: 119px;
+}
+.services-box__back {
+  position: absolute;
+  top: -5%;
+  right: -6%;
+  height: 105%;
+  width: 106%;
+  background-color: $white;
+  clip-path: polygon(0 0, 100% 14.3%, 100% 100%, 0 100%);
+}
+.services__about {
+  flex: 0 0 35%;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 10;
+}
+.services__about-box {
+  padding-right: 95px;
+}
+.services__about-title h2 {
+  font-family: "MuseoSansCyrl-500";
+  font-size: 44px;
+  line-height: 52px;
+}
+.services__about-description p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 28px;
+  padding-bottom: 40px;
+}
+.services__about-btn {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 16px 60px;
+  color: $white;
+  background-color: $hoverBlue;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $hoverBlue;
+    color: $white;
+  }
+}
+.services__about-picture {
+  flex: 0 0 30%;
+  display: flex;
+  align-items: flex-end;
+}
+.services__about-picture img {
+  max-width: 100%;
+}
+.item-picture-icon {
+  width: 40px;
+  height: 40px;
+}
+.services__list {
+  flex: 0 0 65%;
+  padding: 48px 50px;
+  box-shadow: 0px 12px 40px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  background-color: $white;
+  z-index: 10;
+}
+.services__list-items {
+  display: none;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.services__list-items.active {
+  display: flex;
+}
+.services__list-item {
+  flex: 0 0 45%;
+  padding: 10px;
+}
+.services__list-titles {
+  display: inline-block;
+  border: 1px solid #d3dce4;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+.services__list-titles-btn {
+  position: relative;
+  background-color: transparent;
+  border-radius: 40px;
+  border: none;
+  padding: 7px 36px;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $hoverBlue;
+    color: $white;
+  }
+
+  &.active {
+    background-color: $hoverBlue;
+    color: $white;
+  }
+}
+.item-title h3 {
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.item-description p {
+  font-size: 14px;
+  line-height: 20px;
+  color: $darkGrey;
+}

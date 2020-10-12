@@ -1,0 +1,30 @@
+@import "colors";
+@import "fonts";
+@import "grid";
+
+@import "blocks/header";
+@import "blocks/services";
+@import "blocks/work-steps";
+@import "blocks/works";
+@import "blocks/partners";
+@import "blocks/footer";
+
+body {
+  font-family: "MuseoSansCyrl-300";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: $black;
+}
+
+* {
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+}
